@@ -15,17 +15,17 @@
 
 
 
-<meta name="description" content="각자 스터디/구현하면서 알게된 내용 공유">
+<meta name="description" content="모인 향후 방향에 대한 논의">
 <meta name="keywords" content="react-native,study">
 <meta property="og:type" content="article">
-<meta property="og:title" content="React Native 스터디 7/19">
-<meta property="og:url" content="https://tjkang.github.io/2017/07/19/rn-study-20170719/index.html">
+<meta property="og:title" content="React Native 스터디 7/26">
+<meta property="og:url" content="https://tjkang.github.io/2017/07/27/rn-study-20170726/index.html">
 <meta property="og:site_name" content="TJ's Blog">
-<meta property="og:description" content="각자 스터디/구현하면서 알게된 내용 공유">
-<meta property="og:updated_time" content="2017-07-19T14:40:16.000Z">
+<meta property="og:description" content="모인 향후 방향에 대한 논의">
+<meta property="og:updated_time" content="2017-07-27T08:04:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="React Native 스터디 7/19">
-<meta name="twitter:description" content="각자 스터디/구현하면서 알게된 내용 공유">
+<meta name="twitter:title" content="React Native 스터디 7/26">
+<meta name="twitter:description" content="모인 향후 방향에 대한 논의">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -57,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>React Native 스터디 7/19 | TJ&#39;s Blog</title>
+<title>React Native 스터디 7/26 | TJ&#39;s Blog</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -257,11 +257,11 @@
     </div>
     <link class="menu-list" tags="Tags" friends="Friends" about="About Me"/>
 </nav>
-      <div class="body-wrap"><article id="post-rn-study-20170719" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-rn-study-20170726" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/07/19/rn-study-20170719/" class="article-date">
-      <time datetime="2017-07-19T09:06:22.000Z" itemprop="datePublished">2017-07-19</time>
+      <a href="/2017/07/27/rn-study-20170726/" class="article-date">
+      <time datetime="2017-07-27T07:58:37.000Z" itemprop="datePublished">2017-07-27</time>
 </a>
 
 
@@ -276,7 +276,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      React Native 스터디 7/19
+      React Native 스터디 7/26
     </h1>
   
 
@@ -297,40 +297,44 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <a id="more"></a>
-<p><br></p>
-<h3 id="1-한재정"><a href="#1-한재정" class="headerlink" title="1. 한재정"></a>1. 한재정</h3><ul>
-<li>TDD with jest</li>
-<li>GraphQL with apollo</li>
-</ul>
-<h3 id="2-정훈교"><a href="#2-정훈교" class="headerlink" title="2. 정훈교"></a>2. 정훈교</h3><p><a href="https://github.com/ldn0x7dc/react-native-gallery" target="_blank" rel="external">react-native-gallery</a></p>
+        <ol>
+<li>외국 React Native 서적을 번역</li>
+<li>기본 앱 중에서 선정해서 유사한 형태로 개발</li>
+<li>작은 컴포넌트 부터 만들어보고 확장하는 형태</li>
+</ol>
+<p>1번은 레퍼런스가 없어서 출판사쪽에서 OK할지 알 수 없음<br>2/3번은 멤버 간의 실력이 편차가 있어서 진행 상 어려움이 있을 수 있음</p>
+<p>그래서 나온 대안은…</p>
+<p>“React Native 공홈의 문서를 같이 번역해보자”</p>
+<p>기대효과는 아래와 같습니다.</p>
 <ul>
-<li>Image Gallery Pan/Zoom 등 manipulate 구현</li>
+<li>학습함에 있어서 공홈 문서를 보는 것이 매우 유용함</li>
+<li>멤버들의 실력을 상향 평준화 시킬 수 있음</li>
+<li>이후에 위에서 언급한 1,2,3 어떤 것으로 진행해도 용이함</li>
 </ul>
-<h3 id="3-김영범"><a href="#3-김영범" class="headerlink" title="3. 김영범"></a>3. 김영범</h3><p><a href="https://github.com/jsdf/react-native-htmlview" target="_blank" rel="external">react-native-htmlview</a></p>
+<p>공홈의 문서를 보니 122개 토픽, md파일 기준 53개가 있습니다.<br>주당 6개 이상의 토픽을 번역하면 약 3.5개월이 소요될 것으로 예상됩니다.</p>
+<p>진행 방향은 아래와 같습니다.</p>
 <ul>
-<li>ScrollView 안에서의 tabBar를 넣었을때 대한 side-effect iOS/android 별 버그 이슈 공유</li>
-<li>htmlView 는 라이브러리로 씀</li>
+<li>모든 멤버는 매주 진행하는 토픽들을 미리 읽고 모임에 참석한다.</li>
+<li>번역 내용은 <a href="https://github.com/kyo504/react-native" target="_blank" rel="external">https://github.com/kyo504/react-native</a> 에 반영한다.</li>
+<li>번역을 맡은 멤버는 자신의 분량을 번역 후 위의 저장소에 반영한다.</li>
+<li>매주 모여서 번역된 내용을 같이 리뷰하면서 공홈 문서를 한글화한다.</li>
+<li>불가피한 사정에 의해 참석이 불가한 것은 괜찮지만 자신이 맡은 분량은 완료해야 한다.</li>
 </ul>
-<h3 id="4-김예리"><a href="#4-김예리" class="headerlink" title="4. 김예리"></a>4. 김예리</h3><ul>
-<li>애니메이션 구현 공유</li>
-</ul>
-<h3 id="5-강태종"><a href="#5-강태종" class="headerlink" title="5. 강태종"></a>5. 강태종</h3><p><a href="https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1" target="_blank" rel="external">How to better organize your React applications</a><br><a href="https://github.com/infinitered/ignite/blob/master/docs/quick-start/project-structure.md" target="_blank" rel="external">Ignite Project Structure</a><br><a href="https://github.com/vitalets/react-native-extended-stylesheet" target="_blank" rel="external">extended-stylesheet</a></p>
+<p>다음주 분량은 다음과 같습니다.</p>
 <ul>
-<li>프로젝트 폴더 구조</li>
-<li>extended-stylesheet</li>
+<li>Getting Started : 박주만</li>
+<li>Tutorial : 한재정</li>
+<li>Props : 곽대기</li>
+<li>State / Style : 강태종</li>
+<li>Height and Width / Layout with Flexbox : 심일권</li>
+<li>Handling TextInput / Handling Touches : 정훈교</li>
+<li>Using a ScrollView : Using a ListView : 임기환</li>
+<li>Networking : 이환섭</li>
+<li>more-resources: 김예리</li>
 </ul>
-<h3 id="6-곽대기"><a href="#6-곽대기" class="headerlink" title="6. 곽대기"></a>6. 곽대기</h3><ul>
-<li>http fetch 안되는 문제 공유<br>=&gt; 임시 해결책은 Xcode 에서 info.plist =&gt; Allow Arbitary Loads =&gt; YES 로 하면되나<br>   포함하면 애플 심사 거절 당함!</li>
-</ul>
-<h3 id="스터디-그룹-내용-아이디어"><a href="#스터디-그룹-내용-아이디어" class="headerlink" title="스터디 그룹 내용 아이디어"></a>스터디 그룹 내용 아이디어</h3><p><a href="https://opensourceproject-73d9a.firebaseapp.com/" target="_blank" rel="external">오픈 프로젝트</a></p>
-<ul>
-<li>위키 북스</li>
-<li>오픈 소스 프로젝트 </li>
-<li>여행 일정 공유 앱</li>
-<li>농구 팀 짜주는 앱</li>
-<li>기존에 나와 있는 앱 그대로 만들기</li>
-</ul>
+<p>책임감을 부여하기 위해서 자기가 맡은 부분을 하지 못하면 벌금을 내자는 의견이 나왔는데 이 부분은 다음주에 다 모이면 다시 논의 하도록 하겠습니다.</p>
+<p>번역관리는 Github</p>
+<p><a href="https://github.com/kyo504/react-native/tree/master/docs" target="_blank" rel="external">docs</a></p>
 
       
     </div>
@@ -339,13 +343,13 @@
   
     
     <div class="copyright">
-        <p><span>Title:</span><a href="/2017/07/19/rn-study-20170719/">React Native 스터디 7/19</a></p>
+        <p><span>Title:</span><a href="/2017/07/27/rn-study-20170726/">React Native 스터디 7/26</a></p>
         <p><span>Author:</span><a href="/" title="Back to Homepage">TJ Kang</a></p>
-        <p><span>Created:</span>2017-07-19, 18:06:22</p>
-        <p><span>Updated:</span>2017-07-19, 23:40:16</p>
+        <p><span>Created:</span>2017-07-27, 16:58:37</p>
+        <p><span>Updated:</span>2017-07-27, 17:04:01</p>
         <p>
-            <span>Full URL:</span><a class="post-url" href="/2017/07/19/rn-study-20170719/" title="React Native 스터디 7/19">https://tjkang.github.io/2017/07/19/rn-study-20170719/</a>
-            <span class="copy-path" data-clipboard-text="From https://tjkang.github.io/2017/07/19/rn-study-20170719/　　By TJ Kang" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
+            <span>Full URL:</span><a class="post-url" href="/2017/07/27/rn-study-20170726/" title="React Native 스터디 7/26">https://tjkang.github.io/2017/07/27/rn-study-20170726/</a>
+            <span class="copy-path" data-clipboard-text="From https://tjkang.github.io/2017/07/27/rn-study-20170726/　　By TJ Kang" title="Copy Article&#39;s Link &amp; Author"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -358,17 +362,11 @@
     <nav id="article-nav">
         
             <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2017/07/12/rn-study-20170712/">
-                    React Native 스터디 7/12
+                <a href="/2017/07/19/rn-study-20170719/">
+                    React Native 스터디 7/19
                 </a>
             </div>
         
-        
-            <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/07/27/rn-study-20170726/">
-                    React Native 스터디 7/26
-                </a>
-            </div>
         
     </nav>
 
@@ -378,7 +376,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">Contents</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-한재정"><span class="toc-number">1.</span> <span class="toc-text">1. 한재정</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-정훈교"><span class="toc-number">2.</span> <span class="toc-text">2. 정훈교</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-김영범"><span class="toc-number">3.</span> <span class="toc-text">3. 김영범</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-김예리"><span class="toc-number">4.</span> <span class="toc-text">4. 김예리</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-강태종"><span class="toc-number">5.</span> <span class="toc-text">5. 강태종</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-곽대기"><span class="toc-number">6.</span> <span class="toc-text">6. 곽대기</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#스터디-그룹-내용-아이디어"><span class="toc-number">7.</span> <span class="toc-text">스터디 그룹 내용 아이디어</span></a></li></ol>
+            
         
     </div>
     <style>
@@ -414,7 +412,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"React Native 스터디 7/19　| TJ's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"React Native 스터디 7/26　| TJ's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -434,7 +432,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2017/07/12/rn-study-20170712/" title="Pre: React Native 스터디 7/12">
+            <a href="/2017/07/19/rn-study-20170719/" title="Pre: React Native 스터디 7/19">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -442,9 +440,7 @@
         <a title="Mini Archives"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2017/07/27/rn-study-20170726/" title="Next: React Native 스터디 7/26">
-                <i class="fa fa-angle-right"></i>
-            </a>
+            <a href="/" title="Back to Homepage"><i class="fa fa-home"></i></a>
         
     </div>
 
